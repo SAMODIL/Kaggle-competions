@@ -20,7 +20,7 @@ jobs:
         uses: conda-incubator/setup-miniconda@v2
         with:
           python-version: 3.10
-          environment-file: environment.yml
+          environment-file: python-package-conda-.yml
           auto-activate-base: true
 
       - name: Lint with flake8
